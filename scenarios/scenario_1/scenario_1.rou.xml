@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <flow id="EW" begin="0" end="1000" probability="0.2" from="EC" to="CW" departLane="random" />
+
+  <flow id="SW" begin="0" end="1000" probability="0.2" from="SC" to="CW"/>
+  <flow id="ES" begin="0" end="1000" probability="0.2" from="EC" to="CS"/>
+</routes>

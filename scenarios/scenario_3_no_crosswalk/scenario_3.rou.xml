@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <flow id="WE" begin="0" end="1000" probability="0.2" from="WC" to="CE"/>
+  <flow id="EW" begin="0" end="1000" probability="0.2" from="EC" to="CW"/>
+
+  <flow id="ES" begin="0" end="1000" probability="0.2" from="EC" to="CS"/>
+  <flow id="SW" begin="0" end="1000" probability="0.2" from="SC" to="CW"/>
+
+  <flow id="SE" begin="0" end="1000" probability="0.2" from="SC" to="CE"/>
+  <flow id="WS" begin="0" end="1000" probability="0.2" from="WC" to="CS"/>
+</routes>
