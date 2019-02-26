@@ -9,27 +9,35 @@ After starting the sumo simulator, simply run the python script:
 python runner.py
 ```
 
-# Using TraCI/C++TraCIAPI (under ./sumo-1.1.0/src/traci_client)
+# Using TraCI/C++TraCIAPI (under ./traci-cpp)
 
-Files ./sumo-1.1.0 except for "./sumo-1.1.0/src/traci_client" are copied from sumo source directory with version 1.1.0.
+Under ./traci-cpp there is a concised Traci C++ API called "traci_api" for sumo, we put our developed commanding
+programs in the ./tests folder.
 
 ## Useage:
 
-**Under ./sumo-1.1.0, compile:**
-```
+**Under ./traci-cpp, compile:**
+
+```bash
 mkdir build
 cmake ..
 make -j 8
 ```
 
-**Run exetables generated in ../bin**
+The executables will be generated in ./traci-cpp/bin.
 
-Start sumo simulator in one terminal and parse the port number:
+**Run executables**
 
-```
+1. Start sumo simulator in one terminal with the port number.
+
+In scenarios folder, pick a scenario and parse the port number (here we hard-coded it as 1337),
+
+```bash
 sumo-gui -c example.sumocfg --remote-port 1337
 ```
 
-```
+2. Open another terminal, and under ./traci-cpp/bin run.
+
+```bash
 ./example
 ```
