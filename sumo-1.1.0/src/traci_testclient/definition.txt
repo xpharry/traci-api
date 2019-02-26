@@ -1,3 +1,0 @@
-repeat 50 simstep2 0
-setvalue 0xc4 0x31 ego <string> entry_1
-simstep2 200
