@@ -1,5 +1,5 @@
-# sumo-motion-planning
-SUMO is a high level simulator for the traffic and autonomous vehicles.
+# traci-api
+SUMO is a high level simulator for the traffic and autonomous vehicles. Traci API provides an interface to interact with the simulator.
 
 # Using TraCI with python (under ./traci-python)
 
